@@ -1,0 +1,41 @@
+In recent years, the proliferation of online education platforms has revolutionized the way people access and engage with educational content. However, one persistent challenge in online learning environments is ensuring high levels of student engagement, which is crucial for effective learning outcomes. Traditional methods of gauging engagement, such as quizzes or surveys, often fall short in capturing real-time feedback and may disrupt the learning experience. To address this challenge, the integration of advanced technologies, particularly facial expression analysis, offers a promising solution. 
+The project "Analysis of Facial Expressions to Estimate the Level of Engagement in Online Lectures" seeks to leverage computer vision and machine learning techniques to analyze facial expressions of online learners and estimate their level of engagement during lectures. By harnessing the power of facial recognition algorithms and emotion detection models, the system aims to provide educators and online learning platforms with valuable insights into student engagement dynamics in real-time, thereby enabling timely interventions and instructional adjustments to enhance the learning experience. 
+The analysis of facial expressions to estimate the level of engagement in online lectures represents a pioneering initiative at the forefront of educational technology innovation, with the potential to revolutionize online learning practices and enrich the educational experiences of learners worldwide. 
+2.2 SOFTWARE REQUIREMENTS SPECIFICATION 
+2.2.1 User Requirements 
+ 
+	PC, Mac or laptop with x86-64 (64-bit) compatible processors.o 2 GHz or better processor is recommended.. 
+	At least 512 MB of free RAM should be available for the application.
+	Internet connection required for detecting URLs.
+	Microsoft Windows specific requirements:o Microsoft Windows 7 / 8 / 10 / 11. o Microsoft .NET framework 4.5 or newer (for .NET components usage). 
+o	One of following development environments for application development: 
+	Python IDLE 
+ 
+	Anaconda 
+ 
+	macOS specific requirements: 
+o	macOS 10.13 or newer. 
+o	XCode 9.3 or newer (for application development) o GNU Make 3.81 or newer o Anaconda 
+ 
+	Linux specific requirements: 
+o	Linux 3.10 kernel or newer o glibc 2.17 library or newer 
+o	gcc 4.8 or newer (for application development) o GNU Make 3.81 or newer (for application development) o Anaconda 
+ 
+	2.2.2 	Software Requirements 
+ 
+	Python IDE: There are lots of IDEs for python. Some of them are PyCharm, Thonny, Ninja, Spyder, anaconda etc. Ninja and Spyder both are very excellent and free but we used Spyder as it feature- rich than ninja. Anaconda is used for our present system.
+	DL Packages: NumPy, Pandas, sci-kit learn, Matplotlib, Seaborn, Flask, Pymysql.
+	DL Algorithms: Linear Regression, Decision Trees, Random Forest, Support Vector Machine, Naïve Bayes, Gradient Boosting Classifier.
+2.2.3 : Hardware Components: 
+	Processor – i3
+	Hard Disk – 5 GB
+	Memory – 4GB RAM
+
+	Capture Video Stream: System obtains video input from the student's webcam. 
+	Face Detection: Identify and locate all faces within the video frame. 
+	Pre-processing: Apply image processing techniques (grayscale conversion, normalization) to prepare the image for analysis. 
+	Facial Landmark Detection: Identify key facial points (eyes, eyebrows, mouth corners) to track facial movements. 
+	Facial Expression Recognition: Analyze the positions of facial landmarks to identify the expressed emotion (happiness, sadness, anger, surprise, disgust, fear, neutral). 
+	Engagement Level Estimation: Based on recognized expressions (and potentially context), assign an engagement level (high, medium, low). 
+	Output & Feedback: Provide visual or textual feedback on the estimated engagement level (optional for students, mandatory for instructors). 
+	(Loop): Return to step 1 for continuous processing of the video stream. 
